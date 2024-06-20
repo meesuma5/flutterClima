@@ -4,13 +4,18 @@ description: A new Flutter application.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.19.6 <3.16.5"
 
 dependencies:
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^0.1.2
+  geolocator: ^10.1.0
+  http: ^1.1.2
+  flutter_spinkit: ^5.2.0
+  qweather_icons: ^1.6.0
+  weather_icons: ^3.0.0
+  intl: ^0.19.0
+  cached_network_image: ^3.3.1
 
 dev_dependencies:
   flutter_test:
@@ -27,3 +32,16 @@ flutter:
     fonts:
     - asset: fonts/SpartanMB-Black.otf
       weight: 900
+    - asset: fonts/SpartanMB-Extra-Bold.otf
+      weight: 800
+    - asset: fonts/SpartanMB-Bold.otf
+      weight: 700
+    - asset: fonts/SpartanMB-SemiBold.otf
+      weight: 600
+    - asset: fonts/SpartanMB-Regular.otf
+      weight: 400
+    - asset: fonts/SpartanMB-Light.otf
+      weight: 300
+    - asset: fonts/SpartanMB-Thin.otf
+      weight: 200
+    
